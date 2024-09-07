@@ -25,7 +25,7 @@ Access to a terminal on your Linux machine.
 
   You will need a script to help run your miner using ZLUDA with your AMD GPU.
 
-  Download the gpu.sh script (link or provide the download path here), and place it in the same directory as your miner executable.
+  Download the gpu.sh script from the Repository, and place it in the same directory as your miner executable.
 
   Open the script for editing using nano or your preferred text editor:
 
