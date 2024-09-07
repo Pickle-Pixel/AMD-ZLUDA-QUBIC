@@ -46,7 +46,7 @@
 
   - Ensure the script has the correct permissions to be executed:
 
-   ```chmod +x gpu.sh```
+    ```chmod +x gpu.sh```
 
 
 ## **Step 5: Run the Script**
@@ -54,7 +54,7 @@
   - Now that everything is set up, you can run the script to start mining on the QUBIC network using ZLUDA with your AMD GPU:
 
    ```./gpu.sh```
-
+ 
 
 
 ## **#NOTE: OS Graphical Interface may lag spike every couple seconds while mining, I personally have RX 7900XTX and I have that issue but mining is smooth and fast.**
