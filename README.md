@@ -29,7 +29,7 @@
 
  - Open the script for editing using nano or your preferred text editor:
 
-    nano gpu.sh
+   ```nano gpu.sh```
 
  - Modify the following values inside the script:
 
@@ -46,14 +46,14 @@
 
   - Ensure the script has the correct permissions to be executed:
 
-    chmod +x gpu.sh
+   ```chmod +x gpu.sh```
 
 
 ## **Step 5: Run the Script**
 
   - Now that everything is set up, you can run the script to start mining on the QUBIC network using ZLUDA with your AMD GPU:
 
-    ./gpu.sh
+   ```./gpu.sh```
 
 
 
