@@ -14,7 +14,7 @@ Step 1: Install ROCm for your AMD GPU
 Step 2: Download and Extract ZLUDA,
   ZLUDA is a CUDA compatibility layer for Intel and AMD GPUs. Download the latest release and extract it and take a note of the path.
 
-    ![image](https://github.com/user-attachments/assets/cbf666f7-c862-45d1-9b23-fef093deb076)
+  ![image](https://github.com/user-attachments/assets/cbf666f7-c862-45d1-9b23-fef093deb076)
 
 
 Step 3: Download and Edit gpu.sh
