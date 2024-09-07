@@ -32,7 +32,7 @@ Step 3: Download and Edit gpu.sh
   Your Wallet: Insert your QUBIC wallet address (without the curly braces {}).
   Label: Set a label for your mining rig (again, without the curly braces {}).
 
-  LD_LIBRARY_PATH="/path/to/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}
+    LD_LIBRARY_PATH="/path/to/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}
 
 Step 4: Make the Script Executable
   Ensure the script has the correct permissions to be executed:
