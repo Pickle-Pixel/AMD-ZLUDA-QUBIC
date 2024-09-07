@@ -29,7 +29,9 @@ Step 3: Download and Edit gpu.sh
   Modify the following values inside the script:
 
   Path of ZLUDA: Replace with the path where you extracted ZLUDA in Step 2.
+  
   Your Wallet: Insert your QUBIC wallet address (without the curly braces {}).
+  
   Label: Set a label for your mining rig (again, without the curly braces {}).
 
     LD_LIBRARY_PATH="/path/to/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}
