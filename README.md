@@ -53,7 +53,7 @@
 
   - Now that everything is set up, you can run the script to start mining on the QUBIC network using ZLUDA with your AMD GPU:
 
-   ```./gpu.sh```
+    ```./gpu.sh```
  
 
 
