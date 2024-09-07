@@ -1,13 +1,13 @@
 ## **Prerequisites**
 
-Before starting, ensure that you have the following:
+- Before starting, ensure that you have the following:
   
-An AMD GPU compatible with ROCm.
+- An AMD GPU compatible with ROCm.
   
-Access to a terminal on your Linux machine.
+- Access to a terminal on your Linux machine.
 
   
-**Step 1: Install ROCm for your AMD GPU**
+## **Step 1: Install ROCm for your AMD GPU**
 
   You need to install the ROCm (Radeon Open Compute) stack to enable your AMD GPU on Linux.
   
