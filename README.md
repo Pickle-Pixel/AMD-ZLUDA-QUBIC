@@ -44,7 +44,7 @@
 
     ```LD_LIBRARY_PATH="/path/to/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}```
 
-    **PATH FOR ZLUDA #HiveOS and only if you used Step 2: for HiveOS**
+ -  **PATH FOR ZLUDA #HiveOS and only if you used Step 2: for HiveOS**
 
    ```LD_LIBRARY_PATH="usr/lib/zluda:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}```
 
