@@ -20,6 +20,9 @@
 
   ![image](https://github.com/user-attachments/assets/cbf666f7-c862-45d1-9b23-fef093deb076)
 
+## **Step 2: HiveOS only! use this command to setup ROCM and ZLUDA
+
+  ```mkdir /usr/lib/zluda && cd /usr/lib/zluda && wget https://github.com/Gddrig/Qubic_Hiveos/releases/download/0.4.1/zluda_hiveos-6.1.zip && unzip zluda_hiveos-6.1.zip && chmod +rwx /usr/lib/zluda/* && cd / && amd-ocl-install 5.7 5.7 && cd /opt/rocm/lib && wget https://github.com/Gddrig/Qubic_Hiveos/releases/download/0.4.1/libamdhip64.so.zip && unzip libamdhip64.so.zip && chmod +rwx /opt/rocm/lib/* && rm libamdhip64.so.zip && cd / && ldconfig && tail -f /var/log/miner/custom/custom.log```
 
 ## **Step 3: Download and Edit gpu.sh**
 
@@ -39,7 +42,11 @@
   
  - Label: Set a label for your mining rig (again, without the curly braces {}).
 
-    LD_LIBRARY_PATH="/path/to/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}
+    ```LD_LIBRARY_PATH="/path/to/zluda/:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}```
+
+    **PATH FOR ZLUDA #HiveOS and only if you used Step 2: for HiveOS**
+
+   ```LD_LIBRARY_PATH="usr/lib/zluda:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}```
 
 
 ## **Step 4: Make the Script Executable**
