@@ -46,7 +46,7 @@
 
  -  **PATH FOR ZLUDA #HiveOS and only if you used Step 2: for HiveOS**
 
-   ```LD_LIBRARY_PATH="usr/lib/zluda:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}```
+    ```LD_LIBRARY_PATH="usr/lib/zluda:$LD_LIBRARY_PATH" ./rqiner-x86-cuda -i {WALLET} -l {LABEL}```
 
 
 ## **Step 4: Make the Script Executable**
