@@ -1,6 +1,5 @@
 ## **Description**
-- This is a guide on how to use ZLUDA translation layer that makes AMD/ROCM work on NVIDIA/CUDA only software. the specific use case of this guide is how to make Qubic mining software - 
-- work on AMD GPUs and help people use their AMD GPUs instead of keeping them for dust collection.
+- This is a guide on how to use ZLUDA translation layer that makes AMD/ROCM work on NVIDIA/CUDA only software. the specific use case of this guide is how to make Qubic mining software work on AMD GPUs and help people use their AMD GPUs instead of keeping them for dust collection.
 
 ## **Prerequisites**
 
